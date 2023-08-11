@@ -1,7 +1,5 @@
 <script setup lang="ts">
 // import TheWelcome from '../components/TheWelcome.vue'
-import EventCategories from '@/components/EventCategories.vue';
-EventCategories
 import type { EventItem } from '@/type';
 
 import { ref } from 'vue'
@@ -14,7 +12,6 @@ const events = ref<EventItem[]>([
     location: 'Meow Town',
     date: 'January 28, 2s022',
     time: '12:00',
-    petsAllowed: true,
     organizer: 'Kat Laydee'
   },
   {
@@ -25,7 +22,6 @@ const events = ref<EventItem[]>([
     location: 'Flora City',
     date: 'March 14, 2022',
     time: '10:00',
-    petsAllowed: true,
     organizer: 'Fern Pollin'
   },
   {
@@ -36,7 +32,6 @@ const events = ref<EventItem[]>([
     location: 'Playa Del Carmen',
     date: 'July 22, 2022',
     time: '11:00',
-    petsAllowed: false,
     organizer: 'Carey Wales'
   }
 
